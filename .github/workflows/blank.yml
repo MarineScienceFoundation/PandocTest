@@ -18,5 +18,5 @@ jobs:
           args: --output=output/result.pdf ${{ env.FILELIST }}
       - uses: actions/upload-artifact@master
         with:
-          name: derp.pdf
-          path: PandocTest/
+          name: output
+          path: output/
