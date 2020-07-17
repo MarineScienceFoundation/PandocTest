@@ -18,5 +18,5 @@ jobs:
           args: --output=output/result.pdf ${{ env.FILELIST }}
       - uses: actions/upload-artifact@master
         with:
-          name: output
-          path: output
+          name: derp.pdf
+          path: ../.
