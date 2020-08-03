@@ -1,7 +1,17 @@
 ---
 title: "Marine Science Foundation Template"
+
+
 subtitle: "Template"
 author: Principal Investigator
 date: July 2020
-titlepage: true
+
+header-includes:
+  - \usepackage{graphicx}
+  - \graphicspath{ {./Images/} }
+
+toc: true
+tocdepth: 2
+book: true
+---
 ...
