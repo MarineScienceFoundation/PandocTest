@@ -1,7 +1,0 @@
----
-title: "Marine Science Foundation Template"
-subtitle: "Template"
-author: Principal Investigator
-date: July 2020
-titlepage: true
-...
