@@ -14,6 +14,16 @@ Our Documents have several key features:
    * [Script Example](Examples/build-title.sh)
    * [Code Example](custom-titlepage/custom-title.md)
    * [Output Example](Output/custom-title.pdf)
+
+   Example output of properly running `build-title.sh` script
+   ```
+   $ ./build-title.sh
+   ##
+   # Building book example
+   ##
+
+   - custom-titlepage
+   ```
 * Standard Acknowledgement Page
 * TOC
 * Abstract
