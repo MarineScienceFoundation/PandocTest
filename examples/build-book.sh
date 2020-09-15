@@ -8,10 +8,13 @@ echo "##"
 echo ""
 
 
-echo "- custom-titlepage"
-cd "../custom-titlepage"
-pandoc --top-level-division=chapter "custom-titlepage.md" -o "../output/custom-titlepage.pdf" --from markdown --template "../templates/eisvogel.latex" --listings
-pdftoppm -r 150 -png "../output/custom-titlepage.pdf" > "../output/custom-titlepage.png"
+echo "- custom-book relative paths"
+#cd "../custom-titlepage"
+pandoc --top-level-division=chapter "../custom-titlepage/relative_custom-title.tex" \
+                                    "../ChapterBob/chapterbob.md" \
+                                    "../ChapterAlice/chapteralice.md" \
+                                    -o "../Output/custom-book.pdf" --from markdown --template "../templates/eisvogel.latex" --listings
+pdftoppm -r 150 -png "../Output/custom-book.pdf" > "../Output/custom-book.png"
 cd ".."
 
 

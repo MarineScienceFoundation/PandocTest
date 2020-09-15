@@ -15,19 +15,26 @@ Our Documents have several key features:
    * [Code Example](custom-titlepage/custom-title.md)
    * [Output Example](Output/custom-title.pdf)
 
-   Example output of properly running `build-title.sh` script
-   ```
-   $ ./build-title.sh
-   ##
-   # Building book example
-   ##
+       Example output of properly running `build-title.sh` script
 
-   - custom-titlepage
-   ```
+       ```
+       $ ./build-title.sh
+       ##
+       # Building book example
+       ##
+
+       - custom-titlepage
+       ```
+   * In `custom-titlepage/background.pdf & /MSFlogo.png` are passed from custom-title.tex to `templates eisvogel.tex` to create the custom cover page / title .
+
 * Standard Acknowledgement Page
+   * TBD
 * TOC
+  * Created from the various files
 * Abstract
+  * Required -- first page
 * Content
+  * The various chapters that make up the document. 
 * Appendices:
 * Definitions
 * Scripts
