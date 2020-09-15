@@ -11,7 +11,7 @@ Plan
 ---------------
 Our Documents have several key features:
 * Standard Cover Page
-   * [Code Example]()
+   * [Code Example](/Example/build-title.sh)
    * [Example](/Output/custom-titlepage.pdf)
 * Standard Acknowledgement Page
 * TOC
