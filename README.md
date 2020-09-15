@@ -13,7 +13,7 @@ Our Documents have several key features:
 * Standard Cover Page
    * [Script Example](Examples/build-title.sh)
    * [Code Example](custom-titlepage/custom-title.md)
-   * [Output Example](Output/custom-titlepage.pdf)
+   * [Output Example](Output/custom-title.pdf)
 * Standard Acknowledgement Page
 * TOC
 * Abstract
