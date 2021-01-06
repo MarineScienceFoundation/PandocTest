@@ -1,0 +1,24 @@
+
+---
+
+input-files:
+  - coverpage.yml
+  - blank.md
+
+variables:
+
+  lang: en
+  titlepage: true
+  title: "Pandoc for MSF Reports"
+  subtitle: Marine Science Foundation
+
+  author:
+    - author1@marinesciencefoundation.org
+
+  toc-own-page: true
+
+toc: false
+template: '../eisvogel.latex'
+output-file: pdf/coverpage.pdf
+number-sections: true
+...

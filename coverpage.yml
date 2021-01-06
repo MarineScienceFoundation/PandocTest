@@ -1,0 +1,12 @@
+---
+logo: images/MSFlogo.png
+logo-width: 320
+
+titlepage-background: images/background.pdf
+
+titlepage-color: '000000'
+titlepage-rule-color: d5d9e0
+titlepage-rule-height: 0
+titlepage-text-color: d5d9e0
+
+...

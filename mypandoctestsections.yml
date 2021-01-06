@@ -1,0 +1,21 @@
+
+---
+# The order of files here determines the order in the document
+# relative paths are also supported
+input-files:
+  - alice.md
+  - bob.md
+  - 'sources/eve.md'
+
+variables:
+  toc-own-page: true
+  title: "Pandoc for MSF Reports"
+  author:
+    - author1@marinesciencefoundation.org
+
+
+toc: true
+template: '../eisvogel.latex'
+output-file: 'pdf/mypandoctest_YAML_sections_mult_files.pdf'
+number-sections: true
+...

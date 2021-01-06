@@ -1,0 +1,18 @@
+
+---
+
+input-files:
+  - mypandoctest.md
+
+variables:
+  toc-own-page: true
+  title: "Pandoc for MSF Reports"
+  author:
+    - author1@marinesciencefoundation.org
+
+
+toc: true
+template: '../eisvogel.latex'
+output-file: pdf/mypandoctest_YAML_title_author.pdf
+number-sections: true
+...

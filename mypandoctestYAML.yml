@@ -1,0 +1,15 @@
+
+---
+input-files:
+  - mypandoctest.md
+
+variables:
+  toc-own-page: true
+
+toc: true
+template: '../eisvogel.latex'
+output-file: pdf/mypandoctest_YAML.pdf
+number-sections: true
+
+
+...
