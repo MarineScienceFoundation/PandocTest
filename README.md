@@ -57,6 +57,12 @@ Now that we have the `eisvogel` template applied, we will be adding features to 
 
 We are building the complexity of the rendered document, but it important to understand that each of these options can be omitted or included. As and example if you didn't want the `eisvogel` template you would just leave it off. and everything would render correctly.
 
+You will need to add a sub-directory to your working directory `/pdf`
+
+```
+mkdir pdf
+```
+
 ### Output 3: Advanced Rendering -- Apply Template and listing
 Next we run the listing through the template. This is where we get the nice output we are looking to achieve. The code snippet should be in a box with blue and gray syntax highlighting.
 
