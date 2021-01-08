@@ -7,6 +7,7 @@ input-files:
 
 variables:
 
+  # date:
   lang: en
   titlepage: true
   title: "Pandoc for MSF Reports"
