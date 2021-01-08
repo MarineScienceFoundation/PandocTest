@@ -70,7 +70,7 @@ Now we are going to apply numbering to the sections. Here you will learn the lev
 * a single # sign is and **H1** or a chapter equivalent -- ***1.0***
 * two ## signs is an **H2** heading ***1.1***
 * ...
-* 5 ##### signs is a **H5** level heading ***1.1.1.1.1***
+* five ##### signs is a **H5** level heading ***1.1.1.1.1***
 
 ```
 pandoc -s mypandoctest.md  -o pdf/mypandoctest_eisvogel_listing_numbered.pdf --listing --number-sections --template eisvogel.latex
