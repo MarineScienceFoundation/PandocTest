@@ -8,7 +8,13 @@ input-files:
   - sources/eve.md
 
 variables:
-
+  date: '2021-Jan-05'
+  geometry:
+  - top=1.5cm
+  - bottom=2.5cm
+  - left=1.5cm
+  - right=1.5cm
+  - a4paper
   toc-own-page: true
   title: "Pandoc for MSF Reports"
   author:
