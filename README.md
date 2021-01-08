@@ -194,12 +194,60 @@ pandoc --listing -d mypandoctestauthormultfiles.yml
 Cover sheets are used for most reports at MSF. Here will walk through first building a stand-alone cover sheet, then we will add it to the previous document. Making a standalone coverpage requires a few files.
 files required:
 1. `blank.md` -- so pandoc knows to generate a pdf
-1. `make_coversheet.yml` -- overall document information
+1. `coverpage_main.yml` -- overall document information
 1. `coversheet.yml` -- tells pandoc how to make the coverpage
 1. `eisvogel.latex` -- latex template to make docs look nice
-1. `pandoc-coverpage.yml` -- yaml file you will need to edit for content
 1. `images/MSFlogo.png` -- pretty logo for the coverpage
 1. `images/background.pdf` -- pretty background that give it the blue look
+
+### Coverpage Main
+The `coverpage_main.yml` Has the text content that will go all over the title page. This is where you edit the title, authoer, date, etc. 
+```
+---
+
+input-files:
+  - coverpage.yml
+  - blank.md
+
+variables:
+
+  # date: 
+  lang: en
+  titlepage: true
+  title: "Pandoc for MSF Reports"
+  subtitle: Marine Science Foundation
+
+  author:
+    - author1@marinesciencefoundation.org
+
+  toc-own-page: true
+
+toc: false
+template: '../eisvogel.latex'
+output-file: pdf/coverpage.pdf
+number-sections: true
+...
+```
+
+### Coverpage YAML
+The coverpage yaml tells pandoc using the `eisvogel` template how toi decorate the page. It looks like
+```
+---
+logo: images/MSFlogo.png
+logo-width: 320
+
+titlepage-background: images/background.pdf
+
+titlepage-color: '000000'
+titlepage-rule-color: d5d9e0
+titlepage-rule-height: 0
+titlepage-text-color: d5d9e0
+
+...
+
+```
+
+
 
 run
 ```
